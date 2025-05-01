@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/safetensor_visualizer/__init__.py
+src/safetensor_visualizer.egg-info/PKG-INFO
+src/safetensor_visualizer.egg-info/SOURCES.txt
+src/safetensor_visualizer.egg-info/dependency_links.txt
+src/safetensor_visualizer.egg-info/requires.txt
+src/safetensor_visualizer.egg-info/top_level.txt

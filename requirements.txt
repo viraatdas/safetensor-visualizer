@@ -1,0 +1,4 @@
+safetensors
+gradio
+numpy
+plotly

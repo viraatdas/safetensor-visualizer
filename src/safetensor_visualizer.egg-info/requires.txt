@@ -1,0 +1,5 @@
+safetensors
+gradio>=4.0
+numpy
+plotly
+pandas

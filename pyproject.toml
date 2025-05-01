@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safetensor-visualizer"
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="you@example.com" }, # TODO: Replace with actual author info
+]
+description = "A Python tool to visualize .safetensors files locally."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file="LICENSE" } # Assumes LICENSE file exists in root
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # TODO: Verify License type matches LICENSE file
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "safetensors",
+    "gradio>=4.0", # Specify a reasonable minimum Gradio version
+    "numpy",
+    "plotly",
+    "pandas", # Added as a dependency for DataFrame
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/safetensor-visualizer" # TODO: Replace with actual URL
+"Bug Tracker" = "https://github.com/yourusername/safetensor-visualizer/issues" # TODO: Replace
+
+[tool.setuptools.packages.find]
+where = ["src"]
